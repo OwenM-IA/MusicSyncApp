@@ -1,0 +1,48 @@
+09:11:50.387 [INFO] Listening for AbletonOSC messages on port 11001
+09:11:50.390 [INFO] Track settings initialized
+09:11:50.476 [INFO] Received from Ableton: /live/song/get/tempo, (112.0,)
+09:11:59.426 [INFO] Shutting down program...
+09:12:19.067 [INFO] Listening for AbletonOSC messages on port 11001
+09:12:19.071 [INFO] Track settings initialized
+09:12:19.111 [INFO] Received from Ableton: /live/song/get/tempo, (112.0,)
+09:12:28.091 [INFO] Shutting down program...
+09:12:37.214 [INFO] Listening for AbletonOSC messages on port 11001
+09:12:37.218 [INFO] Track settings initialized
+09:12:37.260 [INFO] Received from Ableton: /live/song/get/tempo, (112.0,)
+09:12:46.247 [INFO] Shutting down program...
+09:13:01.293 [INFO] Listening for AbletonOSC messages on port 11001
+09:13:01.298 [INFO] Track settings initialized
+09:13:01.374 [INFO] Received from Ableton: /live/song/get/tempo, (112.0,)
+09:13:10.322 [INFO] Shutting down program...
+09:13:18.135 [INFO] Listening for AbletonOSC messages on port 11001
+09:13:18.138 [INFO] Track settings initialized
+09:13:18.159 [INFO] Received from Ableton: /live/song/get/tempo, (112.0,)
+09:13:27.174 [INFO] Shutting down program...
+09:16:32.444 [INFO] Listening for AbletonOSC messages on port 11001
+09:16:32.447 [INFO] Track settings initialized
+09:16:32.550 [INFO] Received from Ableton: /live/song/get/tempo, (112.0,)
+09:16:41.478 [INFO] Shutting down program...
+09:16:41.590 [ERROR] Traceback (most recent call last):
+  File "asyncio\tasks.py", line 500, in wait_for
+  File "asyncio\base_events.py", line 1070, in create_connection
+  File "asyncio\base_events.py", line 974, in _connect_sock
+  File "asyncio\proactor_events.py", line 726, in sock_connect
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "musicSyncApp.py", line 522, in <module>
+  File "asyncio\runners.py", line 190, in run
+  File "asyncio\runners.py", line 118, in run
+  File "asyncio\base_events.py", line 654, in run_until_complete
+  File "musicSyncApp.py", line 498, in main
+  File "musicSyncApp.py", line 396, in opcTask
+  File "asyncua\client\client.py", line 159, in __aenter__
+  File "asyncua\client\client.py", line 457, in connect
+  File "asyncua\client\client.py", line 469, in _connect_sequence
+  File "asyncua\client\client.py", line 647, in connect_socket
+  File "asyncua\client\ua_client.py", line 543, in connect_socket
+  File "asyncio\tasks.py", line 502, in wait_for
+TimeoutError
+

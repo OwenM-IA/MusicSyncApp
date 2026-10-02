@@ -1,0 +1,42 @@
+{
+    "opcua": {
+        "endpoint": "opc.tcp://192.168.2.2:4840"
+    },
+
+    "nodes": {
+        "tempo": "ns=6;s=Program:Cell_S10_Master.Master_HMI.ActualSpeed",
+        "beatCount": "ns=6;s=gCell_BeatCount",
+        "songSelection": "ns=6;s=gCell_SongSelection",
+        "volume": "ns=6;s=gCell_HMI_Music.Volume",
+        "musicEnable": "ns=6;s=gCell_EnableMusic",
+        "chipmunkEnable": "ns=6;s=gCell_HMI_Music.ChipmunkMode_Enable.Ind",
+        "heartbeat": "ns=6;s=gCell_PythonProgHeartbeat"
+    },
+
+    "ableton": {
+        "ip": "127.0.0.1",
+        "sendPort": 11000,
+        "receivePort": 11001
+    },
+
+    "sync": {
+        "beatOffset": 8,
+        "totalBeatCount": 252.0,
+        "beatScalingFactor": 14,
+        "nudgeThreshold": 0.2,
+        "snapThreshold": 0.55,
+        "ignoreSyncTime": 2
+    },
+
+    "tempo": {
+        "minimumTempo": 20,
+        "muteDelay": 2.0
+    },
+
+    "audio": {
+        "trackIndex": 0,
+        "totalSongCount" : 5,
+        "warpMode": 6,
+        "defaultWarpingMode": 6
+    }
+}
