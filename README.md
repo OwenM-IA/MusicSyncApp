@@ -1,9 +1,10 @@
 """
 This program is designed to faciliate and align communication between the PLC and Ableton.
 
-Libraries to install (can be done with pip install <lib-name>):
+Libraries to install (can be done with pip install <lib-name>):*
  - asycuna
  - python_osc
+*Only relevant if running the .py and not the .exe
 
 To do this it uses AbletonOSC for the python<->ableton connection and asyncua (library built ontop of python-opcua) for PLC<->python (comms through opcUA*)
 *OPCUA was added in RSLogix V36
