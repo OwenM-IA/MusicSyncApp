@@ -483,13 +483,14 @@ async def main():
     oscClient.send_message("/live/clip/start_listen/playing_position", [0, 0])
 
     # Set project settings
-    for i in range(10): # Init settings for all scenes
+    for i in range(TOTAL_SONG_COUNT+1): # Init settings for all scenes
         oscClient.send_message("/live/clip/set/loop_start", [0, i, 0.0]) #[track_index, clip_slot_index, value]
         oscClient.send_message("/live/clip/set/loop_end", [0, i, TOTAL_BEAT_COUNT])
         oscClient.send_message("/live/clip/set/looping", [0, i, 1]) # Turn looping on
         oscClient.send_message("/live/clip/set/warping", [0, i, 1]) # Turn warping on
         oscClient.send_message("/live/clip/set/warp_mode", [0, i, DEFAULT_WARPING_MODE]) # Complex pro warping = 6
         oscClient.send_message("/live/clip/set/ram_mode", [0, i, 1]) # Turn on RAM clip loading for better preformance
+        asyncio.sleep(0.05) # Allow time for messages to be processed
     log.info("Track settings initialized")    
     await asyncio.sleep(4) # Allow time for messages to be processed
     oscClient.send_message("/live/song/set/current_song_time", 0) # Ensure set time is at 0 beats 
@@ -507,7 +508,7 @@ async def main():
         oscClient.send_message("/live/song/stop_playing", [])
         await asyncio.sleep(1)
         oscClient.send_message("/live/song/stop_all_clips", [])
-        for i in range(10):
+        for i in range(TOTAL_SONG_COUNT+1):
             oscClient.send_message("/live/clip/stop_listen/playing_position", [0, i])
         oscClient.send_message("/live/song/set/nudge_up",0)
         oscClient.send_message("/live/song/set/nudge_down",0)

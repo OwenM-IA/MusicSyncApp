@@ -20,7 +20,7 @@
     },
 
     "sync": {
-        "beatOffset": 8,
+        "beatOffset": 11,
         "totalBeatCount": 252.0,
         "beatScalingFactor": 14,
         "nudgeThreshold": 0.2,
