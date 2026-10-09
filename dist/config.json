@@ -4,9 +4,9 @@
     },
 
     "nodes": {
-        "tempo": "ns=6;s=_gOBit2",
-        "beatCount": "ns=6;s=_gOBit",
-        "songSelection": "ns=6;s=_gOBit3",
+        "tempo": "ns=6;s=Program:Cell_S10_Master.Master_HMI.ActualSpeed",
+        "beatCount": "ns=6;s=gCell_BeatCount",
+        "songSelection": "ns=6;s=gCell_SongSelection",
         "volume": "ns=6;s=gCell_HMI_Music.Volume",
         "musicEnable": "ns=6;s=gCell_EnableMusic",
         "chipmunkEnable": "ns=6;s=gCell_HMI_Music.ChipmunkMode_Enable.Ind",
