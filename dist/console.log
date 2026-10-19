@@ -46,3 +46,726 @@ Traceback (most recent call last):
   File "asyncio\tasks.py", line 502, in wait_for
 TimeoutError
 
+09:30:35.819 [INFO] Listening for AbletonOSC messages on port 11001
+09:30:35.822 [INFO] Track settings initialized
+09:30:35.845 [INFO] Received from Ableton: /live/song/get/tempo, (115.02999877929688,)
+09:30:39.839 [WARNING] Requested session timeout to be 3600000ms, got 130000ms instead
+09:30:39.841 [INFO] OPC UA connected
+09:30:39.844 [INFO] Starting up Empty Scene 0!
+09:30:39.844 [INFO] Delay to allow for song startup [started]
+09:30:40.856 [INFO] Delay to allow for song startup [finished]
+09:30:40.856 [INFO] Scene 0 launched, Tempo set to 122.97 BPM
+09:30:43.860 [WARNING] Revised values returned differ from subscription values: CreateSubscriptionResult(SubscriptionId=25624577, RevisedPublishingInterval=100.0, RevisedLifetimeCount=1000, RevisedMaxKeepAliveCount=333)
+09:30:43.961 [INFO] Un-Muting Music
+09:30:43.961 [INFO] 							Machine=70 Song=6.777 Phase Error=-63.223
+09:30:43.961 [INFO] Volume (0-100%) updated to: 0.5611111068725586
+09:30:43.962 [INFO] Changing song to song: 3
+09:30:43.962 [INFO] New scene launched at beat: 70.0
+09:30:43.962 [INFO] Chipmunk OFF
+09:30:43.963 [WARNING] Beat Snap on large error occured. Counter: 1
+09:30:43.963 [WARNING] Snapping to beat 70.0
+09:30:43.963 [INFO] Delay to allow for song startup [started]
+09:30:44.371 [INFO] 							Machine=71 Song=0.637 Phase Error=-70.363
+09:30:44.900 [INFO] 							Machine=72 Song=1.723 Phase Error=-70.277
+09:30:44.949 [INFO] Delay to allow for song startup [finished]
+09:30:44.949 [INFO] Scene 3 launched, Tempo set to 122.97 BPM
+09:30:45.301 [INFO] 							Machine=73 Song=73.104 Phase Error=0.104
+09:30:45.820 [INFO] 							Machine=74 Song=74.169 Phase Error=0.169
+09:30:46.230 [INFO] 							Machine=75 Song=75.030 Phase Error=0.030
+09:30:46.770 [INFO] 							Machine=76 Song=76.116 Phase Error=0.116
+09:30:47.291 [INFO] 							Machine=77 Song=77.162 Phase Error=0.162
+09:30:47.800 [INFO] 							Machine=78 Song=78.227 Phase Error=0.227
+09:30:47.800 [WARNING] Nudge Down
+09:30:48.199 [INFO] 							Machine=79 Song=79.041 Phase Error=0.041
+09:30:48.740 [INFO] 							Machine=80 Song=80.064 Phase Error=0.064
+09:30:49.240 [INFO] 							Machine=81 Song=81.061 Phase Error=0.061
+09:30:49.680 [INFO] 							Machine=82 Song=81.983 Phase Error=-0.017
+09:30:50.212 [INFO] 							Machine=83 Song=83.069 Phase Error=0.069
+09:30:50.640 [INFO] 							Machine=84 Song=83.909 Phase Error=-0.091
+09:30:51.142 [INFO] 							Machine=85 Song=84.955 Phase Error=-0.045
+09:30:51.680 [INFO] 							Machine=86 Song=86.082 Phase Error=0.082
+09:30:52.089 [INFO] 							Machine=87 Song=86.902 Phase Error=-0.098
+09:30:52.701 [INFO] 							Machine=88 Song=88.152 Phase Error=0.152
+09:30:53.230 [INFO] 							Machine=89 Song=89.238 Phase Error=0.238
+09:30:53.231 [WARNING] Nudge Down
+09:30:53.640 [INFO] 							Machine=90 Song=90.051 Phase Error=0.051
+09:30:54.150 [INFO] 							Machine=91 Song=91.054 Phase Error=0.054
+09:30:54.671 [INFO] 							Machine=92 Song=92.069 Phase Error=0.069
+09:30:55.083 [INFO] 							Machine=93 Song=92.909 Phase Error=-0.091
+09:30:55.611 [INFO] 							Machine=94 Song=93.975 Phase Error=-0.025
+09:30:56.050 [INFO] 							Machine=95 Song=94.897 Phase Error=-0.103
+09:30:56.580 [INFO] 							Machine=96 Song=96.004 Phase Error=0.004
+09:30:57.092 [INFO] 							Machine=97 Song=97.029 Phase Error=0.029
+09:30:57.510 [INFO] 							Machine=98 Song=97.869 Phase Error=-0.131
+09:30:58.062 [INFO] 							Machine=99 Song=99.037 Phase Error=0.037
+09:30:58.581 [INFO] 							Machine=100 Song=100.082 Phase Error=0.082
+09:30:59.010 [INFO] 							Machine=101 Song=100.943 Phase Error=-0.057
+09:30:59.571 [INFO] 							Machine=102 Song=102.111 Phase Error=0.111
+09:31:00.001 [INFO] 							Machine=103 Song=102.993 Phase Error=-0.007
+09:31:00.511 [INFO] 							Machine=104 Song=104.017 Phase Error=0.017
+09:31:01.021 [INFO] 							Machine=105 Song=105.083 Phase Error=0.083
+09:31:01.421 [INFO] 							Machine=106 Song=105.903 Phase Error=-0.097
+09:31:01.951 [INFO] 							Machine=107 Song=106.989 Phase Error=-0.011
+09:31:02.459 [INFO] 							Machine=108 Song=108.014 Phase Error=0.014
+09:31:02.891 [INFO] 							Machine=109 Song=108.916 Phase Error=-0.084
+09:31:03.420 [INFO] 							Machine=110 Song=110.002 Phase Error=0.002
+09:31:03.921 [INFO] 							Machine=111 Song=111.006 Phase Error=0.006
+09:31:04.441 [INFO] 							Machine=112 Song=112.092 Phase Error=0.092
+09:31:04.890 [INFO] 							Machine=113 Song=112.994 Phase Error=-0.006
+09:31:05.410 [INFO] 							Machine=114 Song=114.060 Phase Error=0.060
+09:31:05.821 [INFO] 							Machine=115 Song=114.921 Phase Error=-0.079
+09:31:06.361 [INFO] 							Machine=116 Song=116.048 Phase Error=0.048
+09:31:06.881 [INFO] 							Machine=117 Song=117.114 Phase Error=0.114
+09:31:07.300 [INFO] 							Machine=118 Song=117.954 Phase Error=-0.046
+09:31:07.841 [INFO] 							Machine=119 Song=119.040 Phase Error=0.040
+09:31:08.250 [INFO] 							Machine=120 Song=119.901 Phase Error=-0.099
+09:31:08.752 [INFO] 							Machine=121 Song=120.926 Phase Error=-0.074
+09:31:09.294 [INFO] 							Machine=122 Song=122.012 Phase Error=0.012
+09:31:09.731 [INFO] 							Machine=123 Song=122.934 Phase Error=-0.066
+09:31:10.271 [INFO] 							Machine=124 Song=124.041 Phase Error=0.041
+09:31:10.681 [INFO] 							Machine=125 Song=124.881 Phase Error=-0.119
+09:31:11.211 [INFO] 							Machine=126 Song=125.988 Phase Error=-0.012
+09:31:11.670 [INFO] 							Machine=127 Song=126.910 Phase Error=-0.090
+09:31:12.191 [INFO] 							Machine=128 Song=127.976 Phase Error=-0.024
+09:31:12.710 [INFO] 							Machine=129 Song=129.021 Phase Error=0.021
+09:31:13.131 [INFO] 							Machine=130 Song=129.923 Phase Error=-0.077
+09:31:13.671 [INFO] 							Machine=131 Song=131.009 Phase Error=0.009
+09:31:14.183 [INFO] 							Machine=132 Song=132.055 Phase Error=0.055
+09:31:14.611 [INFO] 							Machine=133 Song=132.956 Phase Error=-0.044
+09:31:15.171 [INFO] 							Machine=134 Song=134.084 Phase Error=0.084
+09:31:15.600 [INFO] 							Machine=135 Song=134.965 Phase Error=-0.035
+09:31:16.111 [INFO] 							Machine=136 Song=136.031 Phase Error=0.031
+09:31:16.571 [INFO] 							Machine=137 Song=136.953 Phase Error=-0.047
+09:31:17.081 [INFO] 							Machine=138 Song=137.998 Phase Error=-0.002
+09:31:17.598 [INFO] 							Machine=139 Song=139.064 Phase Error=0.064
+09:31:18.011 [INFO] 							Machine=140 Song=139.925 Phase Error=-0.075
+09:31:18.551 [INFO] 							Machine=141 Song=141.011 Phase Error=0.011
+09:31:19.051 [INFO] 							Machine=142 Song=142.036 Phase Error=0.036
+09:31:19.471 [INFO] 							Machine=143 Song=142.896 Phase Error=-0.104
+09:31:19.980 [INFO] 							Machine=144 Song=143.942 Phase Error=-0.058
+09:31:20.500 [INFO] 							Machine=145 Song=145.007 Phase Error=0.007
+09:31:21.010 [INFO] 							Machine=146 Song=146.053 Phase Error=0.053
+09:31:21.530 [INFO] 							Machine=147 Song=147.118 Phase Error=0.118
+09:31:21.950 [INFO] 							Machine=148 Song=147.979 Phase Error=-0.021
+09:31:22.461 [INFO] 							Machine=149 Song=149.045 Phase Error=0.045
+09:31:22.981 [INFO] 							Machine=150 Song=150.090 Phase Error=0.090
+09:31:23.400 [INFO] 							Machine=151 Song=150.951 Phase Error=-0.049
+09:31:23.910 [INFO] 							Machine=152 Song=152.017 Phase Error=0.017
+09:31:24.412 [INFO] 							Machine=153 Song=153.042 Phase Error=0.042
+09:31:24.881 [INFO] 							Machine=154 Song=153.984 Phase Error=-0.016
+09:31:25.400 [INFO] 							Machine=155 Song=155.050 Phase Error=0.050
+09:31:25.820 [INFO] 							Machine=156 Song=155.911 Phase Error=-0.089
+09:31:26.335 [INFO] 							Machine=157 Song=156.956 Phase Error=-0.044
+09:31:26.870 [INFO] 							Machine=158 Song=158.063 Phase Error=0.063
+09:31:27.301 [INFO] 							Machine=159 Song=158.944 Phase Error=-0.056
+09:31:27.834 [INFO] 							Machine=160 Song=160.030 Phase Error=0.030
+09:31:28.262 [INFO] 							Machine=161 Song=160.932 Phase Error=-0.068
+09:31:28.770 [INFO] 							Machine=162 Song=161.957 Phase Error=-0.043
+09:31:29.300 [INFO] 							Machine=163 Song=163.043 Phase Error=0.043
+09:31:29.741 [INFO] 							Machine=164 Song=163.924 Phase Error=-0.076
+09:31:30.251 [INFO] 							Machine=165 Song=164.990 Phase Error=-0.010
+09:31:30.770 [INFO] 							Machine=166 Song=166.056 Phase Error=0.056
+09:31:31.181 [INFO] 							Machine=167 Song=166.896 Phase Error=-0.104
+09:31:31.730 [INFO] 							Machine=168 Song=168.044 Phase Error=0.044
+09:31:32.250 [INFO] 							Machine=169 Song=169.089 Phase Error=0.089
+09:31:32.661 [INFO] 							Machine=170 Song=169.950 Phase Error=-0.050
+09:31:33.200 [INFO] 							Machine=171 Song=171.036 Phase Error=0.036
+09:31:33.621 [INFO] 							Machine=172 Song=171.897 Phase Error=-0.103
+09:31:34.131 [INFO] 							Machine=173 Song=172.942 Phase Error=-0.058
+09:31:34.650 [INFO] 							Machine=174 Song=174.008 Phase Error=0.008
+09:31:35.181 [INFO] 							Machine=175 Song=175.094 Phase Error=0.094
+09:31:35.601 [INFO] 							Machine=176 Song=175.955 Phase Error=-0.045
+09:31:36.148 [INFO] 							Machine=177 Song=177.082 Phase Error=0.082
+09:31:36.571 [INFO] 							Machine=178 Song=177.943 Phase Error=-0.057
+09:31:37.073 [INFO] 							Machine=179 Song=178.968 Phase Error=-0.032
+09:31:37.600 [INFO] 							Machine=180 Song=180.054 Phase Error=0.054
+09:31:38.102 [INFO] 							Machine=181 Song=181.079 Phase Error=0.079
+09:31:38.512 [INFO] 							Machine=182 Song=181.939 Phase Error=-0.061
+09:31:39.040 [INFO] 							Machine=183 Song=182.985 Phase Error=-0.015
+09:31:39.570 [INFO] 							Machine=184 Song=184.091 Phase Error=0.091
+09:31:39.980 [INFO] 							Machine=185 Song=184.952 Phase Error=-0.048
+09:31:40.500 [INFO] 							Machine=186 Song=185.997 Phase Error=-0.003
+09:31:41.011 [INFO] 							Machine=187 Song=187.063 Phase Error=0.063
+09:31:41.420 [INFO] 							Machine=188 Song=187.883 Phase Error=-0.117
+09:31:41.941 [INFO] 							Machine=189 Song=188.949 Phase Error=-0.051
+09:31:42.461 [INFO] 							Machine=190 Song=190.014 Phase Error=0.014
+09:31:42.990 [INFO] 							Machine=191 Song=191.080 Phase Error=0.080
+09:31:43.401 [INFO] 							Machine=192 Song=191.941 Phase Error=-0.059
+09:31:43.931 [INFO] 							Machine=193 Song=193.027 Phase Error=0.027
+09:31:44.371 [INFO] 							Machine=194 Song=193.929 Phase Error=-0.071
+09:31:44.891 [INFO] 							Machine=195 Song=194.974 Phase Error=-0.026
+09:31:45.392 [INFO] 							Machine=196 Song=195.999 Phase Error=-0.001
+09:31:45.811 [INFO] 							Machine=197 Song=196.880 Phase Error=-0.120
+09:31:46.337 [INFO] 							Machine=198 Song=197.946 Phase Error=-0.054
+09:31:46.870 [INFO] 							Machine=199 Song=199.032 Phase Error=0.032
+09:31:47.282 [INFO] 							Machine=200 Song=199.893 Phase Error=-0.107
+09:31:47.836 [INFO] 							Machine=201 Song=201.020 Phase Error=0.020
+09:31:48.250 [INFO] 							Machine=202 Song=201.881 Phase Error=-0.119
+09:31:48.781 [INFO] 							Machine=203 Song=202.967 Phase Error=-0.033
+09:31:49.290 [INFO] 							Machine=204 Song=203.992 Phase Error=-0.008
+09:31:49.810 [INFO] 							Machine=205 Song=205.099 Phase Error=0.099
+09:31:50.221 [INFO] 							Machine=206 Song=205.898 Phase Error=-0.102
+09:31:50.731 [INFO] 							Machine=207 Song=206.964 Phase Error=-0.036
+09:31:51.260 [INFO] 							Machine=208 Song=208.050 Phase Error=0.050
+09:31:51.670 [INFO] 							Machine=209 Song=208.870 Phase Error=-0.130
+09:31:52.181 [INFO] 							Machine=210 Song=209.936 Phase Error=-0.064
+09:31:52.690 [INFO] 							Machine=211 Song=210.960 Phase Error=-0.040
+09:31:53.201 [INFO] 							Machine=212 Song=212.026 Phase Error=0.026
+09:31:53.710 [INFO] 							Machine=213 Song=213.071 Phase Error=0.071
+09:31:54.123 [INFO] 							Machine=214 Song=213.891 Phase Error=-0.109
+09:31:54.651 [INFO] 							Machine=215 Song=214.998 Phase Error=-0.002
+09:31:55.170 [INFO] 							Machine=216 Song=216.064 Phase Error=0.064
+09:31:55.600 [INFO] 							Machine=217 Song=216.945 Phase Error=-0.055
+09:31:56.121 [INFO] 							Machine=218 Song=218.011 Phase Error=0.011
+09:31:56.631 [INFO] 							Machine=219 Song=219.056 Phase Error=0.056
+09:31:57.042 [INFO] 							Machine=220 Song=219.876 Phase Error=-0.124
+09:31:57.561 [INFO] 							Machine=221 Song=220.982 Phase Error=-0.018
+09:31:58.081 [INFO] 							Machine=222 Song=222.048 Phase Error=0.048
+09:31:58.593 [INFO] 							Machine=223 Song=223.093 Phase Error=0.093
+09:31:59.061 [INFO] 							Machine=224 Song=224.057 Phase Error=0.057
+09:31:59.510 [INFO] 							Machine=225 Song=224.958 Phase Error=-0.042
+09:32:00.052 [INFO] 							Machine=226 Song=226.065 Phase Error=0.065
+09:32:00.480 [INFO] Tempo set to 103.77 BPM
+09:32:00.481 [INFO] 							Machine=227 Song=226.946 Phase Error=-0.054
+09:32:00.594 [INFO] Tempo set to 80.44 BPM
+09:32:00.711 [INFO] Tempo set to 54.31 BPM
+09:32:00.821 [INFO] Tempo set to 27.24 BPM
+09:32:01.020 [INFO] Tempo set to 37.97 BPM
+09:32:01.121 [INFO] Tempo set to 60.37 BPM
+09:32:01.224 [INFO] Tempo set to 84.64 BPM
+09:32:01.341 [INFO] Tempo set to 107.97 BPM
+09:32:01.441 [INFO] Tempo set to 120.05 BPM
+09:32:01.442 [INFO] 							Machine=228 Song=227.923 Phase Error=-0.077
+09:32:01.980 [INFO] 							Machine=229 Song=228.761 Phase Error=-0.239
+09:32:01.981 [WARNING] Nudge Up
+09:32:02.491 [INFO] 							Machine=230 Song=229.822 Phase Error=-0.178
+09:32:02.951 [INFO] 							Machine=231 Song=230.790 Phase Error=-0.210
+09:32:03.500 [INFO] 							Machine=232 Song=231.938 Phase Error=-0.062
+09:32:03.950 [INFO] 							Machine=233 Song=232.838 Phase Error=-0.162
+09:32:04.460 [INFO] 							Machine=234 Song=233.859 Phase Error=-0.141
+09:32:04.972 [INFO] 							Machine=235 Song=234.859 Phase Error=-0.141
+09:32:05.400 [INFO] 							Machine=236 Song=235.739 Phase Error=-0.261
+09:32:05.400 [WARNING] Nudge Up
+09:32:05.920 [INFO] 							Machine=237 Song=236.800 Phase Error=-0.200
+09:32:06.450 [INFO] 							Machine=238 Song=237.946 Phase Error=-0.054
+09:32:06.990 [INFO] 							Machine=239 Song=239.038 Phase Error=0.038
+09:32:07.402 [INFO] 							Machine=240 Song=239.879 Phase Error=-0.121
+09:32:07.950 [INFO] 							Machine=241 Song=240.979 Phase Error=-0.021
+09:32:08.152 [WARNING] Rejected beat count bounce 241.0->241.0
+09:32:08.491 [INFO] 							Machine=242 Song=242.040 Phase Error=0.040
+09:32:08.920 [INFO] 							Machine=243 Song=242.920 Phase Error=-0.080
+09:32:09.420 [INFO] 							Machine=244 Song=243.920 Phase Error=-0.080
+09:32:09.941 [INFO] 							Machine=245 Song=244.941 Phase Error=-0.059
+09:32:10.460 [INFO] 							Machine=246 Song=246.021 Phase Error=0.021
+09:32:10.971 [INFO] 							Machine=247 Song=247.022 Phase Error=0.022
+09:32:11.491 [INFO] 							Machine=248 Song=248.042 Phase Error=0.042
+09:32:11.900 [INFO] 							Machine=249 Song=248.883 Phase Error=-0.117
+09:32:12.411 [INFO] 							Machine=250 Song=249.923 Phase Error=-0.077
+09:32:12.942 [INFO] Tempo set to 103.72 BPM
+09:32:12.942 [INFO] 							Machine=251 Song=250.983 Phase Error=-0.017
+09:32:13.061 [INFO] Tempo set to 75.72 BPM
+09:32:13.161 [INFO] Tempo set to 47.72 BPM
+09:32:13.270 [INFO] Tempo set to 24.38 BPM
+09:32:14.550 [INFO] Tempo set to 41.88 BPM
+09:32:14.662 [INFO] Tempo set to 65.22 BPM
+09:32:14.771 [INFO] Tempo set to 91.35 BPM
+09:32:14.881 [INFO] Tempo set to 116.55 BPM
+09:32:15.000 [INFO] Tempo set to 120.11 BPM
+09:32:15.001 [INFO] Syncing track...
+09:32:15.001 [INFO] 							Machine=0 Song=0.476 Phase Error=0.476
+09:32:15.001 [WARNING] Nudge Down
+09:32:15.201 [INFO] Changing song to song: 4
+09:32:15.202 [INFO] New scene launched at beat: 0.0
+09:32:15.202 [INFO] Delay to allow for song startup [started]
+09:32:15.421 [INFO] Tempo set to 122.79 BPM
+09:32:15.421 [INFO] 							Machine=1 Song=0.233 Phase Error=-0.767
+09:32:15.520 [INFO] Tempo set to 136.03 BPM
+09:32:15.941 [INFO] 							Machine=2 Song=1.330 Phase Error=-0.670
+09:32:16.217 [INFO] Delay to allow for song startup [finished]
+09:32:16.217 [INFO] Scene 4 launched, Tempo set to 120.05 BPM
+09:32:16.350 [INFO] 							Machine=3 Song=2.573 Phase Error=-0.427
+09:32:16.350 [WARNING] Nudge Up
+09:32:16.761 [INFO] 							Machine=4 Song=3.536 Phase Error=-0.464
+09:32:17.262 [INFO] 							Machine=5 Song=4.717 Phase Error=-0.283
+09:32:17.681 [INFO] 							Machine=6 Song=5.719 Phase Error=-0.281
+09:32:17.681 [WARNING] Nudge Up
+09:32:18.101 [INFO] 							Machine=7 Song=6.682 Phase Error=-0.318
+09:32:18.511 [INFO] 							Machine=8 Song=7.664 Phase Error=-0.336
+09:32:19.022 [INFO] 							Machine=9 Song=8.873 Phase Error=-0.127
+09:32:19.470 [INFO] 							Machine=10 Song=9.916 Phase Error=-0.084
+09:32:19.891 [INFO] 							Machine=11 Song=10.891 Phase Error=-0.109
+09:32:20.292 [INFO] 							Machine=12 Song=11.798 Phase Error=-0.202
+09:32:20.711 [INFO] 							Machine=13 Song=12.727 Phase Error=-0.273
+09:32:20.711 [WARNING] Nudge Up
+09:32:21.250 [INFO] 							Machine=14 Song=13.973 Phase Error=-0.027
+09:32:21.671 [INFO] 							Machine=15 Song=14.994 Phase Error=-0.006
+09:32:22.091 [INFO] 							Machine=16 Song=15.974 Phase Error=-0.026
+09:32:22.511 [INFO] 							Machine=17 Song=16.948 Phase Error=-0.052
+09:32:22.961 [INFO] 							Machine=18 Song=17.991 Phase Error=-0.009
+09:32:23.362 [INFO] 							Machine=19 Song=18.876 Phase Error=-0.124
+09:32:23.882 [INFO] 							Machine=20 Song=20.054 Phase Error=0.054
+09:32:24.293 [INFO] 							Machine=21 Song=21.007 Phase Error=0.007
+09:32:24.711 [INFO] 							Machine=22 Song=21.936 Phase Error=-0.064
+09:32:25.131 [INFO] 							Machine=23 Song=22.888 Phase Error=-0.112
+09:32:25.650 [INFO] 							Machine=24 Song=24.067 Phase Error=0.067
+09:32:26.061 [INFO] 							Machine=25 Song=25.020 Phase Error=0.020
+09:32:26.463 [INFO] 							Machine=26 Song=25.926 Phase Error=-0.074
+09:32:26.981 [INFO] 							Machine=27 Song=27.083 Phase Error=0.083
+09:32:27.411 [INFO] 							Machine=28 Song=28.058 Phase Error=0.058
+09:32:27.810 [INFO] 							Machine=29 Song=28.964 Phase Error=-0.036
+09:32:28.221 [INFO] 							Machine=30 Song=29.871 Phase Error=-0.129
+09:32:28.741 [INFO] 							Machine=31 Song=31.096 Phase Error=0.096
+09:32:29.161 [INFO] 							Machine=32 Song=32.048 Phase Error=0.048
+09:32:29.570 [INFO] 							Machine=33 Song=32.955 Phase Error=-0.045
+09:32:29.982 [INFO] 							Machine=34 Song=33.884 Phase Error=-0.116
+09:32:30.500 [INFO] 							Machine=35 Song=35.040 Phase Error=0.040
+09:32:30.902 [INFO] 							Machine=36 Song=35.970 Phase Error=-0.030
+09:32:31.321 [INFO] 							Machine=37 Song=36.899 Phase Error=-0.101
+09:32:31.841 [INFO] 							Machine=38 Song=38.124 Phase Error=0.124
+09:32:32.261 [INFO] 							Machine=39 Song=39.076 Phase Error=0.076
+09:32:32.681 [INFO] 							Machine=40 Song=40.006 Phase Error=0.006
+09:32:33.091 [INFO] 							Machine=41 Song=40.958 Phase Error=-0.042
+09:32:33.601 [INFO] 							Machine=42 Song=42.091 Phase Error=0.091
+09:32:34.002 [INFO] 							Machine=43 Song=42.975 Phase Error=-0.025
+09:32:34.451 [INFO] 							Machine=44 Song=44.018 Phase Error=0.018
+09:32:34.901 [INFO] 							Machine=45 Song=45.016 Phase Error=0.016
+09:32:35.321 [INFO] 							Machine=46 Song=45.968 Phase Error=-0.032
+09:32:35.741 [INFO] 							Machine=47 Song=46.943 Phase Error=-0.057
+09:32:36.241 [INFO] 							Machine=48 Song=48.099 Phase Error=0.099
+09:32:36.642 [INFO] 							Machine=49 Song=49.006 Phase Error=0.006
+09:32:37.061 [INFO] 							Machine=50 Song=49.958 Phase Error=-0.042
+09:32:37.481 [INFO] 							Machine=51 Song=50.888 Phase Error=-0.112
+09:32:37.991 [INFO] 							Machine=52 Song=52.044 Phase Error=0.044
+09:32:38.451 [INFO] 							Machine=53 Song=53.087 Phase Error=0.087
+09:32:38.870 [INFO] 							Machine=54 Song=54.039 Phase Error=0.039
+09:32:39.281 [INFO] 							Machine=55 Song=54.969 Phase Error=-0.031
+09:32:39.711 [INFO] 							Machine=56 Song=55.944 Phase Error=-0.056
+09:32:40.220 [INFO] 							Machine=57 Song=57.077 Phase Error=0.077
+09:32:40.621 [INFO] 							Machine=58 Song=57.984 Phase Error=-0.016
+09:32:41.041 [INFO] 							Machine=59 Song=58.936 Phase Error=-0.064
+09:32:41.461 [INFO] 							Machine=60 Song=59.934 Phase Error=-0.066
+09:32:41.891 [INFO] 							Machine=61 Song=60.909 Phase Error=-0.091
+09:32:42.421 [INFO] 							Machine=62 Song=62.065 Phase Error=0.065
+11:18:36.845 [INFO] Listening for AbletonOSC messages on port 11001
+11:18:36.848 [INFO] Track settings initialized
+11:18:36.902 [INFO] Received from Ableton: /live/song/get/tempo, (122.97000122070312,)
+11:18:40.863 [WARNING] Requested session timeout to be 3600000ms, got 130000ms instead
+11:18:40.865 [INFO] OPC UA connected
+11:18:40.868 [INFO] Starting up Empty Scene 0!
+11:18:40.868 [INFO] Delay to allow for song startup [started]
+11:18:41.180 [INFO] Delay to allow for song startup [finished]
+11:18:41.180 [INFO] Scene 0 launched, Tempo set to 122.97 BPM
+11:18:44.191 [WARNING] Revised values returned differ from subscription values: CreateSubscriptionResult(SubscriptionId=29163521, RevisedPublishingInterval=100.0, RevisedLifetimeCount=1000, RevisedMaxKeepAliveCount=333)
+11:18:44.301 [INFO] Muting Music
+11:18:44.302 [INFO] 							Machine=187 Song=6.876 Phase Error=71.876
+11:18:44.302 [INFO] Volume (0-100%) updated to: 0.3388888931274414
+11:18:44.302 [INFO] Changing song to song: 3
+11:18:44.302 [INFO] New scene launched at beat: 187.0
+11:18:44.302 [INFO] Chipmunk OFF
+11:18:44.303 [WARNING] Beat Snap on large error occured. Counter: 1
+11:18:44.303 [WARNING] Snapping to beat 187.0
+11:18:44.303 [INFO] Delay to allow for song startup [started]
+11:18:44.400 [INFO] 							Machine=188 Song=0.056 Phase Error=64.056
+11:18:44.610 [INFO] Delay to allow for song startup [finished]
+11:18:44.610 [INFO] Scene 3 launched, Tempo set to 122.97 BPM
+11:18:44.931 [INFO] 							Machine=189 Song=189.044 Phase Error=0.044
+11:18:45.440 [INFO] 							Machine=190 Song=190.089 Phase Error=0.089
+11:18:45.981 [INFO] 							Machine=191 Song=191.196 Phase Error=0.196
+11:18:46.390 [INFO] 							Machine=192 Song=192.036 Phase Error=0.036
+11:18:46.920 [INFO] 							Machine=193 Song=193.122 Phase Error=0.122
+11:18:47.321 [INFO] 							Machine=194 Song=193.942 Phase Error=-0.058
+11:18:47.834 [INFO] 							Machine=195 Song=195.008 Phase Error=0.008
+11:18:48.352 [INFO] 							Machine=196 Song=196.073 Phase Error=0.073
+11:18:48.891 [INFO] 							Machine=197 Song=197.160 Phase Error=0.160
+11:18:49.291 [INFO] 							Machine=198 Song=197.979 Phase Error=-0.021
+11:18:49.810 [INFO] 							Machine=199 Song=199.045 Phase Error=0.045
+11:18:50.313 [INFO] 							Machine=200 Song=200.070 Phase Error=0.070
+11:18:50.740 [INFO] 							Machine=201 Song=200.951 Phase Error=-0.049
+11:18:51.251 [INFO] 							Machine=202 Song=202.017 Phase Error=0.017
+11:18:51.792 [INFO] 							Machine=203 Song=203.103 Phase Error=0.103
+11:18:52.301 [INFO] 							Machine=204 Song=204.046 Phase Error=0.046
+11:18:52.751 [INFO] 							Machine=205 Song=205.071 Phase Error=0.071
+11:18:53.281 [INFO] 							Machine=206 Song=206.136 Phase Error=0.136
+11:18:53.680 [INFO] 							Machine=207 Song=206.956 Phase Error=-0.044
+11:18:54.191 [INFO] 							Machine=208 Song=207.981 Phase Error=-0.019
+11:18:54.720 [INFO] 							Machine=209 Song=207.981 Phase Error=-1.019
+11:18:54.721 [WARNING] Snapping to beat 209.0
+11:18:55.131 [INFO] 							Machine=210 Song=209.247 Phase Error=-0.753
+11:18:55.641 [INFO] 							Machine=211 Song=210.293 Phase Error=-0.707
+11:18:56.152 [INFO] 							Machine=212 Song=211.358 Phase Error=-0.642
+11:18:56.674 [INFO] 							Machine=213 Song=212.424 Phase Error=-0.576
+11:18:57.100 [INFO] 							Machine=214 Song=213.305 Phase Error=-0.695
+11:18:57.101 [WARNING] Snapping to beat 214.0
+11:18:57.621 [INFO] 							Machine=215 Song=214.957 Phase Error=-0.043
+11:18:58.131 [INFO] 							Machine=216 Song=215.982 Phase Error=-0.018
+11:18:58.651 [INFO] 							Machine=217 Song=217.068 Phase Error=0.068
+11:18:59.051 [INFO] 							Machine=218 Song=217.888 Phase Error=-0.112
+11:18:59.566 [INFO] 							Machine=219 Song=218.913 Phase Error=-0.087
+11:19:00.092 [INFO] 							Machine=220 Song=219.999 Phase Error=-0.001
+11:19:00.531 [INFO] 							Machine=221 Song=220.880 Phase Error=-0.120
+11:19:01.052 [INFO] 							Machine=222 Song=221.987 Phase Error=-0.013
+11:19:01.482 [INFO] 							Machine=223 Song=222.848 Phase Error=-0.152
+11:19:02.001 [INFO] 							Machine=224 Song=223.934 Phase Error=-0.066
+11:19:02.403 [INFO] Tempo set to 122.38 BPM
+11:19:02.522 [INFO] Tempo set to 99.11 BPM
+11:19:02.522 [INFO] 							Machine=225 Song=225.000 Phase Error=-0.000
+11:19:02.630 [INFO] Tempo set to 71.11 BPM
+11:19:02.731 [INFO] Tempo set to 45.91 BPM
+11:19:02.831 [INFO] Tempo set to 22.57 BPM
+11:19:03.031 [INFO] Tempo set to 39.84 BPM
+11:19:03.131 [INFO] Tempo set to 63.17 BPM
+11:19:03.233 [INFO] Tempo set to 86.51 BPM
+11:19:03.333 [INFO] Tempo set to 109.84 BPM
+11:19:03.452 [INFO] Tempo set to 120.05 BPM
+11:19:03.452 [INFO] 							Machine=226 Song=225.706 Phase Error=-0.294
+11:19:03.452 [WARNING] Nudge Up
+11:19:03.962 [INFO] 							Machine=227 Song=226.617 Phase Error=-0.383
+11:19:04.502 [INFO] 							Machine=228 Song=227.693 Phase Error=-0.307
+11:19:04.502 [WARNING] Nudge Up
+11:19:04.901 [INFO] 							Machine=229 Song=228.540 Phase Error=-0.460
+11:19:05.415 [INFO] 							Machine=230 Song=229.597 Phase Error=-0.403
+11:19:05.931 [INFO] 							Machine=231 Song=230.653 Phase Error=-0.347
+11:19:05.931 [WARNING] Nudge Up
+11:19:06.452 [INFO] 							Machine=232 Song=231.709 Phase Error=-0.291
+11:19:06.961 [INFO] 							Machine=233 Song=232.825 Phase Error=-0.175
+11:19:07.481 [INFO] 							Machine=234 Song=233.862 Phase Error=-0.138
+11:19:07.983 [INFO] 							Machine=235 Song=234.863 Phase Error=-0.137
+11:19:08.531 [INFO] 							Machine=236 Song=235.963 Phase Error=-0.037
+11:19:08.941 [INFO] 							Machine=237 Song=236.804 Phase Error=-0.196
+11:19:09.462 [INFO] 							Machine=238 Song=237.844 Phase Error=-0.156
+11:19:10.001 [INFO] 							Machine=239 Song=238.945 Phase Error=-0.055
+11:19:10.211 [WARNING] Rejected beat count bounce 239.0->239.0
+11:19:10.416 [INFO] 							Machine=240 Song=239.725 Phase Error=-0.275
+11:19:10.416 [WARNING] Nudge Up
+11:19:10.952 [INFO] 							Machine=241 Song=240.829 Phase Error=-0.171
+11:19:11.501 [INFO] 							Machine=242 Song=242.059 Phase Error=0.059
+11:19:11.917 [INFO] 							Machine=243 Song=242.900 Phase Error=-0.100
+11:19:12.451 [INFO] 							Machine=244 Song=243.940 Phase Error=-0.060
+11:19:12.961 [INFO] 							Machine=245 Song=244.961 Phase Error=-0.039
+11:19:13.403 [INFO] 							Machine=246 Song=245.821 Phase Error=-0.179
+11:19:13.922 [INFO] 							Machine=247 Song=246.861 Phase Error=-0.139
+11:19:14.451 [INFO] 							Machine=248 Song=247.962 Phase Error=-0.038
+11:19:14.952 [INFO] Tempo set to 97.18 BPM
+11:19:14.952 [INFO] 							Machine=249 Song=248.962 Phase Error=-0.038
+11:19:15.071 [INFO] Tempo set to 73.85 BPM
+11:19:15.181 [INFO] Tempo set to 45.85 BPM
+11:19:15.291 [INFO] Tempo set to 20.65 BPM
+11:19:16.531 [INFO] Tempo set to 37.22 BPM
+11:19:16.632 [INFO] Tempo set to 60.55 BPM
+11:19:16.740 [INFO] Tempo set to 83.88 BPM
+11:19:16.841 [INFO] Tempo set to 109.08 BPM
+11:19:16.941 [INFO] Tempo set to 120.05 BPM
+11:19:16.942 [INFO] 							Machine=250 Song=250.258 Phase Error=0.258
+11:19:16.942 [WARNING] Nudge Down
+11:19:17.141 [INFO] Changing song to song: 4
+11:19:17.141 [INFO] New scene launched at beat: 250.0
+11:19:17.142 [INFO] Delay to allow for song startup [started]
+11:19:17.445 [INFO] Delay to allow for song startup [finished]
+11:19:17.445 [INFO] Scene 4 launched, Tempo set to 120.05 BPM
+11:19:17.462 [INFO] Tempo set to 132.07 BPM
+11:19:17.462 [INFO] 							Machine=251 Song=0.474 Phase Error=1.474
+11:19:17.581 [INFO] Tempo set to 136.03 BPM
+11:19:17.903 [INFO] Syncing track...
+11:19:17.904 [INFO] 							Machine=0 Song=251.286 Phase Error=-0.714
+11:19:18.331 [INFO] 							Machine=1 Song=0.833 Phase Error=-0.167
+11:19:18.751 [INFO] 							Machine=2 Song=1.830 Phase Error=-0.170
+11:19:19.261 [INFO] 							Machine=3 Song=2.964 Phase Error=-0.036
+11:19:19.683 [INFO] 							Machine=4 Song=3.916 Phase Error=-0.084
+11:19:20.081 [INFO] 							Machine=5 Song=4.800 Phase Error=-0.200
+11:19:20.592 [INFO] 							Machine=6 Song=5.979 Phase Error=-0.021
+11:19:21.002 [INFO] 							Machine=7 Song=6.909 Phase Error=-0.091
+11:19:21.463 [INFO] 							Machine=8 Song=7.838 Phase Error=-0.162
+11:19:21.892 [INFO] 							Machine=9 Song=8.927 Phase Error=-0.073
+11:19:22.301 [INFO] 							Machine=10 Song=9.879 Phase Error=-0.121
+11:19:22.711 [INFO] 							Machine=11 Song=10.786 Phase Error=-0.214
+11:19:23.223 [INFO] 							Machine=12 Song=11.942 Phase Error=-0.058
+11:19:23.641 [INFO] 							Machine=13 Song=12.894 Phase Error=-0.106
+11:19:24.052 [INFO] 							Machine=14 Song=13.846 Phase Error=-0.154
+11:19:24.491 [INFO] 							Machine=15 Song=14.821 Phase Error=-0.179
+11:19:25.021 [INFO] 							Machine=16 Song=16.023 Phase Error=0.023
+11:19:25.432 [INFO] 							Machine=17 Song=16.952 Phase Error=-0.048
+11:19:25.843 [INFO] 							Machine=18 Song=17.882 Phase Error=-0.118
+11:19:26.263 [INFO] 							Machine=19 Song=18.834 Phase Error=-0.166
+11:19:26.702 [INFO] 							Machine=20 Song=19.809 Phase Error=-0.191
+11:19:27.132 [INFO] 							Machine=21 Song=20.784 Phase Error=-0.216
+11:19:27.641 [INFO] 							Machine=22 Song=21.985 Phase Error=-0.015
+11:19:28.052 [INFO] 							Machine=23 Song=22.915 Phase Error=-0.085
+11:19:28.462 [INFO] 							Machine=24 Song=23.822 Phase Error=-0.178
+11:19:28.971 [INFO] 							Machine=25 Song=25.001 Phase Error=0.001
+11:19:29.382 [INFO] 							Machine=26 Song=25.908 Phase Error=-0.092
+11:19:29.791 [INFO] 							Machine=27 Song=26.837 Phase Error=-0.163
+11:19:30.312 [INFO] 							Machine=28 Song=27.993 Phase Error=-0.007
+11:19:30.722 [INFO] 							Machine=29 Song=28.946 Phase Error=-0.054
+11:19:31.132 [INFO] 							Machine=30 Song=29.853 Phase Error=-0.147
+11:19:31.562 [INFO] 							Machine=31 Song=30.850 Phase Error=-0.150
+11:19:31.972 [INFO] 							Machine=32 Song=31.802 Phase Error=-0.198
+11:19:32.511 [INFO] 							Machine=33 Song=32.981 Phase Error=-0.019
+11:19:32.922 [INFO] 							Machine=34 Song=33.933 Phase Error=-0.067
+11:19:33.332 [INFO] 							Machine=35 Song=34.840 Phase Error=-0.160
+11:19:33.841 [INFO] 							Machine=36 Song=36.019 Phase Error=0.019
+11:19:34.251 [INFO] 							Machine=37 Song=36.971 Phase Error=-0.029
+11:19:34.674 [INFO] 							Machine=38 Song=37.924 Phase Error=-0.076
+11:19:35.141 [INFO] 							Machine=39 Song=38.967 Phase Error=-0.033
+11:19:35.582 [INFO] 							Machine=40 Song=39.964 Phase Error=-0.036
+11:19:36.002 [INFO] 							Machine=41 Song=40.939 Phase Error=-0.061
+11:19:36.416 [INFO] 							Machine=42 Song=41.868 Phase Error=-0.132
+11:19:36.852 [INFO] 							Machine=43 Song=42.866 Phase Error=-0.134
+11:19:37.282 [INFO] 							Machine=44 Song=43.818 Phase Error=-0.182
+11:19:37.811 [INFO] 							Machine=45 Song=44.997 Phase Error=-0.003
+11:19:38.232 [INFO] 							Machine=46 Song=45.995 Phase Error=-0.005
+11:19:38.631 [INFO] 							Machine=47 Song=46.856 Phase Error=-0.144
+11:19:39.033 [INFO] 							Machine=48 Song=47.808 Phase Error=-0.192
+11:19:39.552 [INFO] 							Machine=49 Song=48.987 Phase Error=-0.013
+11:19:39.963 [INFO] 							Machine=50 Song=49.894 Phase Error=-0.106
+11:19:40.392 [INFO] 							Machine=51 Song=50.869 Phase Error=-0.131
+11:19:40.802 [INFO] 							Machine=52 Song=51.821 Phase Error=-0.179
+11:19:41.311 [INFO] 							Machine=53 Song=52.932 Phase Error=-0.068
+11:19:41.751 [INFO] 							Machine=54 Song=53.975 Phase Error=-0.025
+11:19:42.162 [INFO] 							Machine=55 Song=54.882 Phase Error=-0.118
+11:19:42.561 [INFO] 							Machine=56 Song=55.789 Phase Error=-0.211
+11:19:43.063 [INFO] 							Machine=57 Song=56.922 Phase Error=-0.078
+11:19:43.481 [INFO] 							Machine=58 Song=57.875 Phase Error=-0.125
+11:19:43.902 [INFO] 							Machine=59 Song=58.850 Phase Error=-0.150
+11:19:44.416 [INFO] 							Machine=60 Song=60.006 Phase Error=0.006
+11:19:44.831 [INFO] 							Machine=61 Song=60.913 Phase Error=-0.087
+11:19:45.242 [INFO] 							Machine=62 Song=61.865 Phase Error=-0.135
+11:19:45.663 [INFO] 							Machine=63 Song=62.817 Phase Error=-0.183
+11:19:46.183 [INFO] 							Machine=64 Song=64.019 Phase Error=0.019
+11:19:46.602 [INFO] 							Machine=65 Song=64.971 Phase Error=-0.029
+11:19:47.021 [INFO] 							Machine=66 Song=65.900 Phase Error=-0.100
+11:19:47.422 [INFO] 							Machine=67 Song=66.807 Phase Error=-0.193
+11:19:47.951 [INFO] 							Machine=68 Song=68.032 Phase Error=0.032
+11:19:48.351 [INFO] 							Machine=69 Song=68.938 Phase Error=-0.062
+11:19:48.762 [INFO] 							Machine=70 Song=69.845 Phase Error=-0.155
+11:19:49.263 [INFO] 							Machine=71 Song=70.979 Phase Error=-0.021
+11:19:49.682 [INFO] 							Machine=72 Song=71.954 Phase Error=-0.046
+11:19:50.092 [INFO] 							Machine=73 Song=72.861 Phase Error=-0.139
+11:19:50.522 [INFO] 							Machine=74 Song=73.836 Phase Error=-0.164
+11:19:51.042 [INFO] 							Machine=75 Song=74.992 Phase Error=-0.008
+11:19:51.462 [INFO] 							Machine=76 Song=75.967 Phase Error=-0.033
+11:19:51.903 [INFO] 							Machine=77 Song=76.987 Phase Error=-0.013
+11:19:52.323 [INFO] 							Machine=78 Song=77.916 Phase Error=-0.084
+11:19:52.742 [INFO] 							Machine=79 Song=78.869 Phase Error=-0.131
+11:19:53.152 [INFO] 							Machine=80 Song=79.798 Phase Error=-0.202
+11:19:53.678 [INFO] 							Machine=81 Song=80.977 Phase Error=-0.023
+11:19:54.103 [INFO] 							Machine=82 Song=81.975 Phase Error=-0.025
+11:19:54.522 [INFO] 							Machine=83 Song=82.904 Phase Error=-0.096
+11:19:54.943 [INFO] 							Machine=84 Song=83.856 Phase Error=-0.144
+11:19:55.372 [INFO] 							Machine=85 Song=84.854 Phase Error=-0.146
+11:19:55.792 [INFO] 							Machine=86 Song=85.784 Phase Error=-0.216
+11:19:56.311 [INFO] 							Machine=87 Song=86.940 Phase Error=-0.060
+11:19:56.732 [INFO] 							Machine=88 Song=87.937 Phase Error=-0.063
+11:19:57.152 [INFO] 							Machine=89 Song=88.890 Phase Error=-0.110
+11:19:57.652 [INFO] 							Machine=90 Song=90.023 Phase Error=0.023
+11:19:58.062 [INFO] 							Machine=91 Song=90.930 Phase Error=-0.070
+11:19:58.472 [INFO] 							Machine=92 Song=91.882 Phase Error=-0.118
+11:19:58.892 [INFO] 							Machine=93 Song=92.812 Phase Error=-0.188
+11:19:59.402 [INFO] 							Machine=94 Song=93.991 Phase Error=-0.009
+11:19:59.803 [INFO] 							Machine=95 Song=94.898 Phase Error=-0.102
+11:20:00.232 [INFO] 							Machine=96 Song=95.827 Phase Error=-0.173
+11:20:00.652 [INFO] 							Machine=97 Song=96.802 Phase Error=-0.198
+11:20:01.162 [INFO] 							Machine=98 Song=97.958 Phase Error=-0.042
+11:20:01.562 [INFO] 							Machine=99 Song=98.842 Phase Error=-0.158
+11:20:01.982 [INFO] 							Machine=100 Song=99.840 Phase Error=-0.160
+11:20:02.503 [INFO] 							Machine=101 Song=100.996 Phase Error=-0.004
+11:20:02.923 [INFO] 							Machine=102 Song=101.948 Phase Error=-0.052
+11:20:03.332 [INFO] 							Machine=103 Song=102.855 Phase Error=-0.145
+11:20:03.752 [INFO] 							Machine=104 Song=103.853 Phase Error=-0.147
+11:20:04.262 [INFO] 							Machine=105 Song=104.986 Phase Error=-0.014
+11:20:04.675 [INFO] 							Machine=106 Song=105.916 Phase Error=-0.084
+11:20:05.104 [INFO] 							Machine=107 Song=106.914 Phase Error=-0.086
+11:20:05.543 [INFO] 							Machine=108 Song=107.888 Phase Error=-0.112
+11:20:05.962 [INFO] 							Machine=109 Song=108.818 Phase Error=-0.182
+11:20:06.383 [INFO] 							Machine=110 Song=109.793 Phase Error=-0.207
+11:20:06.883 [INFO] 							Machine=111 Song=110.949 Phase Error=-0.051
+11:20:07.302 [INFO] 							Machine=112 Song=111.901 Phase Error=-0.099
+11:20:07.723 [INFO] 							Machine=113 Song=112.831 Phase Error=-0.169
+11:20:08.243 [INFO] 							Machine=114 Song=114.010 Phase Error=0.010
+11:20:08.663 [INFO] 							Machine=115 Song=114.962 Phase Error=-0.038
+11:20:09.063 [INFO] 							Machine=116 Song=115.846 Phase Error=-0.154
+11:20:09.484 [INFO] 							Machine=117 Song=116.844 Phase Error=-0.156
+11:20:10.002 [INFO] 							Machine=118 Song=118.000 Phase Error=-0.000
+11:20:10.443 [INFO] 							Machine=119 Song=118.998 Phase Error=-0.002
+11:20:10.863 [INFO] 							Machine=120 Song=119.950 Phase Error=-0.050
+11:20:11.283 [INFO] 							Machine=121 Song=120.879 Phase Error=-0.121
+11:20:11.683 [INFO] 							Machine=122 Song=121.831 Phase Error=-0.169
+11:20:12.212 [INFO] 							Machine=123 Song=122.988 Phase Error=-0.012
+11:20:12.634 [INFO] 							Machine=124 Song=123.985 Phase Error=-0.015
+11:20:13.043 [INFO] 							Machine=125 Song=124.892 Phase Error=-0.108
+11:20:13.473 [INFO] 							Machine=126 Song=125.867 Phase Error=-0.133
+11:20:13.883 [INFO] 							Machine=127 Song=126.819 Phase Error=-0.181
+11:20:14.383 [INFO] 							Machine=128 Song=127.953 Phase Error=-0.047
+11:20:14.803 [INFO] 							Machine=129 Song=128.905 Phase Error=-0.095
+11:20:15.322 [INFO] 							Machine=130 Song=130.061 Phase Error=0.061
+11:20:15.733 [INFO] 							Machine=131 Song=130.968 Phase Error=-0.032
+11:20:16.135 [INFO] 							Machine=132 Song=131.898 Phase Error=-0.102
+11:20:16.544 [INFO] 							Machine=133 Song=132.827 Phase Error=-0.173
+11:20:17.072 [INFO] 							Machine=134 Song=134.029 Phase Error=0.029
+11:20:17.473 [INFO] 							Machine=135 Song=134.936 Phase Error=-0.064
+11:20:17.883 [INFO] 							Machine=136 Song=135.888 Phase Error=-0.112
+11:20:18.312 [INFO] 							Machine=137 Song=136.840 Phase Error=-0.160
+11:20:18.743 [INFO] 							Machine=138 Song=137.815 Phase Error=-0.185
+11:20:19.253 [INFO] 							Machine=139 Song=138.994 Phase Error=-0.006
+11:20:19.653 [INFO] 							Machine=140 Song=139.901 Phase Error=-0.099
+11:20:20.183 [INFO] 							Machine=141 Song=141.102 Phase Error=0.102
+11:20:20.592 [INFO] 							Machine=142 Song=142.009 Phase Error=0.009
+11:20:21.002 [INFO] 							Machine=143 Song=142.961 Phase Error=-0.039
+11:20:21.418 [INFO] 							Machine=144 Song=143.891 Phase Error=-0.109
+11:20:21.842 [INFO] 							Machine=145 Song=144.843 Phase Error=-0.157
+11:20:22.352 [INFO] 							Machine=146 Song=146.022 Phase Error=0.022
+11:20:22.755 [INFO] 							Machine=147 Song=146.929 Phase Error=-0.071
+11:20:23.183 [INFO] 							Machine=148 Song=147.859 Phase Error=-0.141
+11:20:23.603 [INFO] 							Machine=149 Song=148.856 Phase Error=-0.144
+11:20:24.132 [INFO] 							Machine=150 Song=150.035 Phase Error=0.035
+11:20:24.542 [INFO] 							Machine=151 Song=150.942 Phase Error=-0.058
+11:20:24.953 [INFO] 							Machine=152 Song=151.917 Phase Error=-0.083
+11:20:25.366 [INFO] 							Machine=153 Song=152.846 Phase Error=-0.154
+11:20:25.892 [INFO] 							Machine=154 Song=154.025 Phase Error=0.025
+11:20:26.294 [INFO] 							Machine=155 Song=154.932 Phase Error=-0.068
+11:20:26.703 [INFO] 							Machine=156 Song=155.884 Phase Error=-0.116
+11:20:27.133 [INFO] 							Machine=157 Song=156.859 Phase Error=-0.141
+11:20:27.643 [INFO] 							Machine=158 Song=157.993 Phase Error=-0.007
+11:20:28.053 [INFO] 							Machine=159 Song=158.922 Phase Error=-0.078
+11:20:28.472 [INFO] 							Machine=160 Song=159.875 Phase Error=-0.125
+11:20:28.917 [INFO] 							Machine=161 Song=160.895 Phase Error=-0.105
+11:20:29.335 [INFO] 							Machine=162 Song=161.847 Phase Error=-0.153
+11:20:29.772 [INFO] 							Machine=163 Song=162.822 Phase Error=-0.178
+11:20:30.293 [INFO] 							Machine=164 Song=164.001 Phase Error=0.001
+11:20:30.713 [INFO] 							Machine=165 Song=164.953 Phase Error=-0.047
+11:20:31.132 [INFO] 							Machine=166 Song=165.905 Phase Error=-0.095
+11:20:31.563 [INFO] 							Machine=167 Song=166.857 Phase Error=-0.143
+11:20:31.973 [INFO] 							Machine=168 Song=167.810 Phase Error=-0.190
+11:20:32.503 [INFO] 							Machine=169 Song=169.011 Phase Error=0.011
+11:20:32.918 [INFO] 							Machine=170 Song=169.963 Phase Error=-0.037
+11:20:33.333 [INFO] 							Machine=171 Song=170.916 Phase Error=-0.084
+11:20:33.783 [INFO] 							Machine=172 Song=171.936 Phase Error=-0.064
+11:20:34.203 [INFO] 							Machine=173 Song=172.888 Phase Error=-0.112
+11:20:34.653 [INFO] 							Machine=174 Song=173.886 Phase Error=-0.114
+11:20:35.063 [INFO] 							Machine=175 Song=174.792 Phase Error=-0.208
+11:20:35.573 [INFO] 							Machine=176 Song=175.971 Phase Error=-0.029
+11:20:36.003 [INFO] 							Machine=177 Song=176.969 Phase Error=-0.031
+11:20:36.433 [INFO] 							Machine=178 Song=177.921 Phase Error=-0.079
+11:20:36.843 [INFO] 							Machine=179 Song=178.851 Phase Error=-0.149
+11:20:37.353 [INFO] 							Machine=180 Song=180.030 Phase Error=0.030
+11:20:37.794 [INFO] 							Machine=181 Song=181.005 Phase Error=0.005
+11:20:38.205 [INFO] 							Machine=182 Song=181.957 Phase Error=-0.043
+11:20:38.664 [INFO] 							Machine=183 Song=183.000 Phase Error=-0.000
+11:20:39.093 [INFO] 							Machine=184 Song=183.929 Phase Error=-0.071
+11:20:39.513 [INFO] 							Machine=185 Song=184.904 Phase Error=-0.096
+11:20:39.922 [INFO] 							Machine=186 Song=185.834 Phase Error=-0.166
+11:20:40.433 [INFO] 							Machine=187 Song=186.990 Phase Error=-0.010
+11:20:40.853 [INFO] 							Machine=188 Song=187.942 Phase Error=-0.058
+11:20:41.263 [INFO] 							Machine=189 Song=188.849 Phase Error=-0.151
+11:20:41.783 [INFO] 							Machine=190 Song=190.073 Phase Error=0.073
+11:20:42.183 [INFO] 							Machine=191 Song=190.980 Phase Error=-0.020
+11:20:42.603 [INFO] 							Machine=192 Song=191.932 Phase Error=-0.068
+11:20:43.043 [INFO] 							Machine=193 Song=192.907 Phase Error=-0.093
+11:20:43.483 [INFO] 							Machine=194 Song=193.927 Phase Error=-0.073
+11:20:43.903 [INFO] 							Machine=195 Song=194.880 Phase Error=-0.120
+11:20:44.423 [INFO] 							Machine=196 Song=196.036 Phase Error=0.036
+11:20:44.843 [INFO] 							Machine=197 Song=196.988 Phase Error=-0.012
+11:20:45.243 [INFO] 							Machine=198 Song=197.895 Phase Error=-0.105
+11:20:45.645 [INFO] 							Machine=199 Song=198.802 Phase Error=-0.198
+11:20:46.173 [INFO] 							Machine=200 Song=200.003 Phase Error=0.003
+11:20:46.574 [INFO] 							Machine=201 Song=200.910 Phase Error=-0.090
+11:20:46.992 [INFO] 							Machine=202 Song=201.862 Phase Error=-0.138
+11:20:47.417 [INFO] 							Machine=203 Song=202.837 Phase Error=-0.163
+11:20:47.943 [INFO] 							Machine=204 Song=204.016 Phase Error=0.016
+11:20:48.353 [INFO] 							Machine=205 Song=204.968 Phase Error=-0.032
+11:20:48.763 [INFO] 							Machine=206 Song=205.853 Phase Error=-0.147
+11:20:49.264 [INFO] 							Machine=207 Song=207.032 Phase Error=0.032
+11:20:49.682 [INFO] 							Machine=208 Song=207.984 Phase Error=-0.016
+11:20:50.103 [INFO] 							Machine=209 Song=208.936 Phase Error=-0.064
+11:20:50.523 [INFO] 							Machine=210 Song=209.866 Phase Error=-0.134
+11:20:51.043 [INFO] 							Machine=211 Song=211.022 Phase Error=0.022
+11:20:51.473 [INFO] 							Machine=212 Song=212.019 Phase Error=0.019
+11:20:51.903 [INFO] 							Machine=213 Song=213.017 Phase Error=0.017
+11:20:52.314 [INFO] 							Machine=214 Song=213.946 Phase Error=-0.054
+11:20:52.743 [INFO] 							Machine=215 Song=214.899 Phase Error=-0.101
+11:20:53.152 [INFO] 							Machine=216 Song=215.828 Phase Error=-0.172
+11:20:53.663 [INFO] 							Machine=217 Song=216.962 Phase Error=-0.038
+11:20:54.083 [INFO] 							Machine=218 Song=217.959 Phase Error=-0.041
+11:20:54.492 [INFO] 							Machine=219 Song=218.866 Phase Error=-0.134
+11:20:55.003 [INFO] 							Machine=220 Song=220.022 Phase Error=0.022
+11:20:55.417 [INFO] 							Machine=221 Song=220.975 Phase Error=-0.025
+11:20:55.833 [INFO] 							Machine=222 Song=221.927 Phase Error=-0.073
+11:20:56.243 [INFO] 							Machine=223 Song=222.834 Phase Error=-0.166
+11:20:56.753 [INFO] 							Machine=224 Song=223.990 Phase Error=-0.010
+11:20:57.064 [INFO] Tempo set to 126.64 BPM
+11:20:57.165 [INFO] Tempo set to 102.37 BPM
+11:20:57.165 [INFO] 							Machine=225 Song=224.829 Phase Error=-0.171
+11:20:57.165 [WARNING] Nudge Up
+11:20:57.283 [INFO] Tempo set to 79.04 BPM
+11:20:57.383 [INFO] Tempo set to 51.97 BPM
+11:20:57.483 [INFO] Tempo set to 27.71 BPM
+11:20:57.684 [INFO] Tempo set to 32.84 BPM
+11:20:57.785 [INFO] Tempo set to 57.11 BPM
+11:20:57.885 [INFO] Tempo set to 80.44 BPM
+11:20:58.003 [INFO] Tempo set to 103.77 BPM
+11:20:58.103 [INFO] Tempo set to 124.08 BPM
+11:20:58.103 [INFO] 							Machine=226 Song=225.944 Phase Error=-0.056
+11:20:58.633 [INFO] 							Machine=227 Song=227.075 Phase Error=0.075
+11:20:59.143 [INFO] 							Machine=228 Song=228.109 Phase Error=0.109
+11:20:59.552 [INFO] 							Machine=229 Song=228.957 Phase Error=-0.043
+11:21:00.073 [INFO] 							Machine=230 Song=230.032 Phase Error=0.032
+11:21:00.575 [INFO] 							Machine=231 Song=231.066 Phase Error=0.066
+11:21:00.993 [INFO] 							Machine=232 Song=231.914 Phase Error=-0.086
+11:21:01.523 [INFO] 							Machine=233 Song=233.031 Phase Error=0.031
+11:21:02.033 [INFO] 							Machine=234 Song=234.106 Phase Error=0.106
+11:21:02.435 [INFO] 							Machine=235 Song=234.934 Phase Error=-0.066
+11:21:02.953 [INFO] 							Machine=236 Song=235.988 Phase Error=-0.012
+11:21:03.473 [INFO] 							Machine=237 Song=237.064 Phase Error=0.064
+11:21:03.903 [INFO] 							Machine=238 Song=237.953 Phase Error=-0.047
+11:21:04.418 [INFO] 							Machine=239 Song=239.028 Phase Error=0.028
+11:21:04.623 [WARNING] Rejected beat count bounce 239.0->239.0
+11:21:04.923 [INFO] 							Machine=240 Song=240.062 Phase Error=0.062
+11:21:05.363 [INFO] 							Machine=241 Song=240.972 Phase Error=-0.028
+11:21:05.918 [INFO] 							Machine=242 Song=242.130 Phase Error=0.130
+11:21:06.373 [INFO] 							Machine=243 Song=243.061 Phase Error=0.061
+11:21:06.783 [INFO] 							Machine=244 Song=243.909 Phase Error=-0.091
+11:21:07.303 [INFO] 							Machine=245 Song=245.005 Phase Error=0.005
+11:21:07.823 [INFO] 							Machine=246 Song=246.059 Phase Error=0.059
+11:21:08.233 [INFO] 							Machine=247 Song=246.928 Phase Error=-0.072
+11:21:08.743 [INFO] 							Machine=248 Song=247.962 Phase Error=-0.038
+11:21:09.255 [INFO] Tempo set to 99.52 BPM
+11:21:09.255 [INFO] 							Machine=249 Song=249.037 Phase Error=0.037
+11:21:09.353 [INFO] Tempo set to 76.12 BPM
+11:21:09.473 [INFO] Tempo set to 52.85 BPM
+11:21:09.583 [INFO] Tempo set to 24.79 BPM
+11:21:10.833 [INFO] Tempo set to 34.42 BPM
+11:21:10.933 [INFO] Tempo set to 57.75 BPM
+11:21:11.033 [INFO] Tempo set to 81.08 BPM
+11:21:11.143 [INFO] Tempo set to 104.42 BPM
+11:21:11.243 [INFO] Tempo set to 124.08 BPM
+11:21:11.244 [INFO] 							Machine=250 Song=250.422 Phase Error=0.422
+11:21:11.244 [WARNING] Nudge Down
+11:21:11.443 [INFO] Changing song to song: 5
+11:21:11.443 [INFO] New scene launched at beat: 250.0
+11:21:11.444 [INFO] Delay to allow for song startup [started]
+11:21:11.764 [INFO] Delay to allow for song startup [finished]
+11:21:11.764 [INFO] Scene 5 launched, Tempo set to 124.08 BPM
+11:21:11.765 [INFO] Tempo set to 125.94 BPM
+11:21:11.765 [INFO] 							Machine=251 Song=0.468 Phase Error=1.468
+11:21:12.283 [INFO] Syncing track...
+11:21:12.283 [INFO] 							Machine=0 Song=251.379 Phase Error=-0.621
+11:21:12.284 [WARNING] Snapping to beat 0.0
+11:21:12.693 [INFO] 							Machine=1 Song=0.617 Phase Error=-0.383
+11:21:13.213 [INFO] 							Machine=2 Song=1.688 Phase Error=-0.312
+11:21:13.643 [INFO] 							Machine=3 Song=2.611 Phase Error=-0.389
+11:21:14.165 [INFO] 							Machine=4 Song=3.703 Phase Error=-0.297
+11:21:14.585 [INFO] 							Machine=5 Song=4.605 Phase Error=-0.395
+11:21:14.585 [WARNING] Nudge Up
+11:21:15.103 [INFO] 							Machine=6 Song=5.672 Phase Error=-0.328
+11:21:15.625 [INFO] 							Machine=7 Song=6.867 Phase Error=-0.133
+11:21:16.043 [INFO] 							Machine=8 Song=7.761 Phase Error=-0.239
+11:21:16.043 [WARNING] Nudge Up
+11:21:16.573 [INFO] 							Machine=9 Song=8.877 Phase Error=-0.123
+11:21:17.005 [INFO] 							Machine=10 Song=9.895 Phase Error=-0.105
+11:21:17.423 [INFO] 							Machine=11 Song=10.792 Phase Error=-0.208
+11:21:17.943 [INFO] 							Machine=12 Song=11.862 Phase Error=-0.138
+11:21:18.453 [INFO] 							Machine=13 Song=12.975 Phase Error=-0.025
+11:21:18.883 [INFO] 							Machine=14 Song=13.877 Phase Error=-0.123
+11:21:19.393 [INFO] 							Machine=15 Song=14.927 Phase Error=-0.073
+11:21:19.904 [INFO] 							Machine=16 Song=15.997 Phase Error=-0.003
+11:21:20.314 [INFO] 							Machine=17 Song=16.879 Phase Error=-0.121
+11:21:21.581 [INFO] Shutting down program...

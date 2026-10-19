@@ -20,12 +20,13 @@
     },
 
     "sync": {
-        "beatOffset": 11,
+        "beatOffset": 12,
         "totalBeatCount": 252.0,
         "beatScalingFactor": 14,
         "nudgeThreshold": 0.2,
         "snapThreshold": 0.55,
-        "ignoreSyncTime": 2
+        "ignoreSyncTime": 2,
+        "songSwitchDelay": 0.3
     },
 
     "tempo": {

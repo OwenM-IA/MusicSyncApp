@@ -79,6 +79,7 @@ BEAT_INTERVAL_SCALING_FACTOR = CONFIG["sync"]["beatScalingFactor"] # Beat Inverv
 NUDGE_ACTIVATION_THRESHOLD = CONFIG["sync"]["nudgeThreshold"] # Threshold to activate nudging in beat difference
 SNAP_ACTIVATION_THRESHOLD = CONFIG["sync"]["snapThreshold"]
 IGNORE_SYNC_DELAY = CONFIG["sync"]["ignoreSyncTime"] # Delay before checking if the sync worked
+SONG_SWITCH_DELAY = CONFIG["sync"]["songSwitchDelay"] # Delay before checking if the sync worked
 
 # Audio
 TRACK_INDEX = CONFIG["audio"]["trackIndex"]
@@ -184,7 +185,7 @@ async def phaseCorrect(error, scene):
             return
 
         if abs(error) > (SNAP_ACTIVATION_THRESHOLD * (1/applicationSpeedScaling)): # Big difference, jump the spot of the song to currentPLCBeat
-            if beatSnapCounter > 2: # Occasionally the prog gets stuck continuously snapping but no feedback is seen on ableton
+            if beatSnapCounter >= 2: # Occasionally the prog gets stuck continuously snapping but no feedback is seen on ableton
                 log.error("Desynced clip position and arrangement position, resetting song")
                 oscClient.send_message("/live/song/stop_playing", [])
                 oscClient.send_message("/live/song/stop_all_clips", [])
@@ -244,7 +245,7 @@ async def launchScene(scene, tempo, additionalSetTimeDelay):
         oscClient.send_message("/live/scene/fire",scene)
         oscClient.send_message("/live/track/set/mute", [0, 1])
         log.info("Delay to allow for song startup [started]")
-        await asyncio.sleep(1 + additionalSetTimeDelay)
+        await asyncio.sleep(SONG_SWITCH_DELAY + additionalSetTimeDelay)
         log.info("Delay to allow for song startup [finished]")
         if musicEnabled:
             oscClient.send_message("/live/track/set/mute", [0, 0])
