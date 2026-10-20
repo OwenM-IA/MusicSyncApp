@@ -9,7 +9,7 @@
         "songSelection": "ns=6;s=gCell_SongSelection",
         "volume": "ns=6;s=gCell_HMI_Music.Volume",
         "musicEnable": "ns=6;s=gCell_EnableMusic",
-        "chipmunkEnable": "ns=6;s=gCell_HMI_Music.ChipmunkMode_Enable.Ind",
+        "chipmunkEnable": "ns=6;s=gCell_HMI_Music.ChipmunkMode_Active",
         "heartbeat": "ns=6;s=gCell_PythonProgHeartbeat"
     },
 
@@ -20,7 +20,7 @@
     },
 
     "sync": {
-        "beatOffset": 12,
+        "beatOffset": 13,
         "totalBeatCount": 252.0,
         "beatScalingFactor": 14,
         "nudgeThreshold": 0.2,
